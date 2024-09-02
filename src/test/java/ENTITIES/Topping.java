@@ -5,6 +5,9 @@ public class Topping {
     private int calorie;
     private double prezzo;
 
+    public Topping(String cheese, int i, double v) {
+    }
+
     public String getNome() {
         return nome;
     }
