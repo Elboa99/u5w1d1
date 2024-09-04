@@ -6,6 +6,9 @@ public class Bevanda {
     private int calorie;
     private double prezzo;
 
+    public Bevanda(String water, String s, int i, double v) {
+    }
+
     public String getNome() {
         return nome;
     }

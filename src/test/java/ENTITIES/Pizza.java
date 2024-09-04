@@ -8,6 +8,9 @@ public class Pizza {
     private int calorie;
     private double prezzo;
 
+    public <T> Pizza(String salamiPizza, List<T> list, List<T> list1, int i, double v) {
+    }
+
     public String getNome() {
         return nome;
     }
